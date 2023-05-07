@@ -1,0 +1,59 @@
+.background-img{
+    background-image: url(kal-visuals-aK4iPNYipnU-unsplash.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+/* Hết phần background */
+h1{
+    color: white;
+    text-align: center;
+    position: relative;
+    margin: auto;
+}
+.first-h2{
+    text-align: center;
+    color: white;
+    position: relative;
+    margin: auto;
+}
+.donate-form{
+    border: 1px solid white;
+    border-radius: 5px;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.donate-buttons{
+    text-decoration: none;
+    color: black;
+    border: 1px solid lightgreen;
+    background-color: lightgreen;
+    border-radius: 5px;
+}
+.donate-buttons:hover{
+    text-decoration: none;
+    color: black;
+    border: 1px solid green;
+    background-color: green;
+    border-radius: 5px;
+}
+#credit-card{
+    border: none;
+}
+.submit-button{
+    border: 1px solid yellow;
+    border-radius: 5px;
+    background-color: yellow;
+    text-decoration: none;
+    color: black;
+    padding: 0.25%;
+    left: 50%;
+}
